@@ -1,0 +1,141 @@
+body{
+background-color:#eee;
+}
+button{
+background-color:skyblue;
+width:250px;
+height:30px;
+color:white;
+cursor:pointer;
+}
+#wrapper {
+  width: 500px;
+  height: 50%;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.main-text {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.heading {
+  border: 0px solid #000;
+  margin-bottom: 5px;
+}
+
+.heading img {
+  height: 50px;
+  width: 175px;
+  margin: auto;
+  position: relative;
+  left: 40px;
+}
+
+.part-1,
+.part-2{
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.part-2 {
+  position: relative;
+}
+
+.part-2 a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #003569;
+  font-size: 14px;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+ .sub-cont{
+width: 250px;
+  height: 40%;
+  margin: 5px auto;
+  border: 1px solid #e6e6e6;
+  padding: 20px 30px;
+  background-color:white;
+ }
+ .part-3 a {
+  cursor: pointer;
+  color: #3897f0;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+}
+.lineor
+{
+  text-align: center;
+flex-shrink:0px;
+flex-grow:0px;
+font-size:13px;
+font-weight:600px;
+line-height:15px;
+margin-right:18px;
+margin-left:18px;
+    text-transform:uppercase;
+vertical-align:baseline;
+position:relative;
+margin:8px 0 8px 0;
+}
+.fbicon{
+  text-align: center;
+margin:3px;
+background-color:white;
+    color:blue;
+}
+#wrapper1{
+text-align:center;
+}
+#others img{
+height:50px;
+width:130px;
+cursor:pointer;
+}
+.extra{
+text-transform:uppercase;
+justify-content:space-around;
+}
+.extra a{
+text-align:center;
+display:flex;
+color:blue;
+padding:20px;
+flex-flow:row wrap;
+cursor:pointer;
+}
+article{
+  display:flex;
+  margin: 0 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.dd1{
+  text-align: center;
+}
+.fp{
+    text-align: center;
+    padding-top: 10px;
+  }
+@media screen and (max-width:650px){
+	#mainimage{
+		display: none;
+      }
+}
